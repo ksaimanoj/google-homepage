@@ -1,4 +1,4 @@
-img {
+.image_logo {
 	width: 400px;
 	height: 250px;
 	margin: auto;
@@ -21,7 +21,7 @@ input {
 }
 
 .horizontal p:hover{
-	border: 1px solid black;
+	box-shadow: 0px 0px 2px black;
 	color: black;
 	background-color: #eee;
 }
@@ -41,4 +41,40 @@ input {
 
 .left {
 	float: left;
+}
+
+.navigation_bar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: right;
+	margin-top: 10px;
+}
+
+.navigation_bar ul li {
+	display: inline;
+	margin-right: 5px;
+	font-size: 14px;
+}
+
+
+
+.image_container {
+	width: 30px;
+	height: 30px;
+	float: right;
+	background-image: 
+			url('https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+	background-position: -132px -38px;
+	margin-top: 5px;
+}
+
+.navigation_bar p {
+	padding: 10px;
+	background-color: #00f;
+	float: right;
+	margin: 0;
+	color: #fff;
+	border: 1px solid white;
+	border-radius: 5px;
 }
